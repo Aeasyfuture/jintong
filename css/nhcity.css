@@ -1,0 +1,195 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.88rem;
+    float: left;
+}
+
+header .icon-taobaozhongchou4qizuoyoujiantou1{
+    margin-left: 0.15rem;
+    line-height: 0.88rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+header span{
+    float: right;
+    margin-right: 3.02rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+nav{
+    width:100%;
+    height: 0.6rem;
+    position: relative;
+}
+nav input{
+    width: 7.13rem;
+    height: 0.6rem;
+    background: #f2faff;
+    border:0.03rem solid #e8f6ff;
+    border-radius: 0.36rem;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 0.18rem;
+    padding-left: 0.76rem;
+    font-size: 0.24rem;
+    color: #797d7f;
+}
+input::-webkit-input-placeholder {
+    color:#c8d9e6;
+}
+nav .search{
+    width: 0.79rem;
+    height: 0.44rem;
+    border-radius: 0.36rem;
+    position: absolute;
+    left: 0.16rem;
+    top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .search img{
+    width: 0.42rem;
+    height: 0.43rem;
+}
+.position{
+    width: 100%;
+    height: 1.33rem;
+    margin-top: 0.2rem;
+}
+.position img{
+    height: 0.39rem;
+    float: left;
+}
+.dingwei{
+    width: 6.96rem;
+    height: 1.33rem;
+    margin-left: 0.26rem;
+    border-bottom: 2px solid #eef1f2;
+}
+.dingwei .circle{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.36rem;
+    background: #44B5FF;
+    box-shadow: 0 0.1rem 0.15rem 0.01rem rgba(68,181,255,0.43);
+    margin-top: 0.34rem;
+    float: left;
+}
+.dingwei span{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    float: left;
+    margin-left: 0.12rem;
+    margin-top: 0.20rem;
+}
+.dingwei .taiyuan{
+    width: 0.97rem;
+    height: 0.48rem;
+    background: #e7f6ff;
+    border-radius: 0.36rem;
+    margin-top: 0.14rem;
+    float: left;
+    margin-left: 0.19rem;
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #36A8FE;
+    text-align: center;
+    line-height: 0.48rem;
+}
+.big{
+    width:100%;
+    margin-top: 0.26rem;
+    padding: 0 0.28rem 0 0.25rem;
+    box-sizing: border-box;
+}
+.big .add{
+    float: left;
+    height: 9.18rem;
+}
+.big .add .circle{
+    width: 0.43rem;
+    height: 0.43rem;
+    border-radius: 50%;
+    background: #36a8fe;
+    margin-top: 0.02rem;
+    text-align: center;
+    line-height: 0.43rem;
+    color: white;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+.add .circle1{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #37CE9A;
+    box-shadow: 0 0.1rem 0.15rem 0.01rem rgba(55,206,154,0.43);
+    float: left;
+    margin-top: 0.35rem;
+}
+.add .circle2{
+    width: 0.43rem;
+    height: 0.43rem;
+    border-radius: 50%;
+    background: #36a8fe;
+    margin-top: 0.33rem;
+    text-align: center;
+    line-height: 0.43rem;
+    color: white;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+.add ul {
+    width: 6.51rem;
+}
+.add ul li{
+    width: 6.51rem;
+    height: 0.8rem;
+    border-bottom: 2px solid #f6f9fa;
+
+}
+.add ul li span{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    float: left;
+    margin-left: 0.12rem;
+    margin-top: 0.22rem;
+
+}
+.big .letter{
+    height: 9.18rem;
+    float: right;
+}
+.big .letter ul{
+    height: 9.18rem;
+}
+.big .letter ul li{
+    height: 0.34rem;
+    line-height: 0.34rem;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #c1c1c1;
+}

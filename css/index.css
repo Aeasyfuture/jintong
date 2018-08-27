@@ -1,0 +1,196 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.88rem;
+    float: left;
+}
+
+header .icon-taobaozhongchou4qizuoyoujiantou1{
+    margin-left: 0.15rem;
+    line-height: 0.88rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+header span{
+    float: right;
+    margin-right: 3.31rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+nav{
+    width:100%;
+    height: 0.6rem;
+    position: relative;
+
+}
+nav span{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    margin-left:0.23rem;
+    font-weight: bold;
+}
+nav a{
+    width:0.36rem;
+    height: 0.44rem;
+}
+nav .icon-arrow{
+    line-height: 0.6rem;
+    color: #36a8fe;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+nav input{
+    width: 5.93rem;
+    height: 0.6rem;
+    background: #f2faff;
+    border:0.03rem solid #e8f6ff;
+    border-radius: 0.36rem;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 0.18rem;
+    padding-left: 0.37rem;
+    font-size: 0.24rem;
+    color: #797d7f;
+}
+input::-webkit-input-placeholder {
+    color:#c8d9e6;
+}
+nav .search{
+    width: 0.79rem;
+    height: 0.44rem;
+    border-radius: 0.36rem;
+    position: absolute;
+    right: 0.29rem;
+    top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .search img{
+    width: 0.42rem;
+    height: 0.43rem;
+
+}
+.banner{
+    width: 100%;
+    height: 2.99rem;
+    margin-top: 0.17rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 7.5rem;
+    height: 2.99rem;
+    position: absolute;
+    top:0;
+    left: 7.5rem;
+}
+.banner .spot{
+    width: 0.59rem;
+    height: 0.11rem;
+    position: absolute;
+    bottom: 0.17rem;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .spot li{
+    width: 0.11rem;
+    height: 0.11rem;
+    background: #C7EAFD;
+    border-radius: 50%;
+}
+.banner .spot .back{
+    background: #46B7F8;
+}
+.big{
+    width: 100%;
+    height: 7.3rem;
+    padding: 0.05rem 0;
+}
+.big ul{
+    width: 2.5rem;
+    height: 7.2rem;
+    float: left;
+}
+.big ul li{
+    width: 2.5rem;
+    height: 2.4rem;
+    padding: 0.36rem 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.big ul li div{
+    width: 1.21rem;
+    height: 1.68rem;
+    padding: 0 0.04rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.big ul li .sewerc{
+    padding: 0;
+}
+.big ul li a{
+    display: block;
+    width: 1.13rem;
+    height: 1.13rem;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(-90deg,#30a3fe,#6fd5fe);
+    margin-bottom: 0.16rem;
+}
+.big ul li a img{
+    width: 1.38rem;
+    height: 1.38rem;
+    position: absolute;
+    left: 0.6rem;
+    top: 0.44rem;
+}
+.big ul li .sewer{
+    margin: 0 0.04rem 0.16rem;
+
+}
+.big ul li span{
+    font-size: 0.24rem;
+    color: #8E9397;
+}
+footer{
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Li_all{
+    width: 0.5rem;
+    height: 0.98rem;
+    font-size: 0.24rem;
+    color: #9ddcff;
+    font-weight: bold;
+    /*background: pink;*/
+}
+.Li_all img{
+    width: 0.48rem;
+    height: 0.48rem;
+    margin-top: 0.13rem;
+}
