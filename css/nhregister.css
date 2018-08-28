@@ -1,0 +1,186 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fbfeff;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.88rem;
+    float: left;
+}
+
+header .icon-taobaozhongchou4qizuoyoujiantou1{
+    margin-left: 0.15rem;
+    line-height: 0.88rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+header span{
+    float: right;
+    margin-right: 3.31rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+.jianbian{
+    height: 0.39rem;
+}
+.big{
+    width: 100%;
+    margin-top: 1.64rem;
+}
+.biaoti{
+    width: 5.18rem;
+    height: 0.87rem;
+    margin: 0 auto;
+    font-size: 0.32rem;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 0.87rem;
+    font-weight: bold;
+}
+.phone {
+    width: 5.18rem;
+    height: 1.09rem;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+}
+.phone img{
+    float: left;
+    width: 0.48rem;
+    height: 0.55rem;
+    margin-top: 0.34rem;
+}
+.num{
+    float: left;
+    margin-left: 0.16rem;
+    margin-top: 0.42rem;
+    font-size: 0.22rem;
+    font-family: San Francisco Display;
+    font-weight: bold;
+    color: #40b1ff;
+}
+.phone input{
+    float: left;
+    margin-left: 0.24rem;
+    height: 1.09rem;
+    border: none;
+    outline: none;
+
+}
+.message{
+    width: 5.18rem;
+    height: 0.89rem;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+}
+.spot{
+    width: 0.08rem;
+    height: 0.08rem;
+    background: #3BACFE;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.19rem;
+    margin-top: 0.48rem;
+    box-shadow: 0.01rem 0 0.15rem 0.01rem rgba(59,172,254,0.4) ;
+}
+.message input{
+    width: 2.48rem;
+    float: left;
+    margin-left: 0.36rem;
+    height: 0.89rem;
+    border: none;
+    outline: none;
+
+}
+input::-webkit-input-placeholder {
+    color:rgba(0,0,0,0.2);
+    font-size: 0.22rem;
+    font-weight: bold;
+}
+.code{
+    width: 1.56rem;
+    height: 0.46rem;
+    margin-top: 0.21rem;
+    background-image: -webkit-linear-gradient(left,#37e06f,#32d69a);
+    box-shadow: 0 0 0.15rem 0.04rem rgba(55,223,116,0.75);
+    border-radius: 0.36rem;
+    border: none;
+    color: #fff;
+    font-size: 0.2rem;
+    float: right;
+}
+.log{
+    width: 3.87rem;
+    height: 0.52rem;
+    margin-top: 0.39rem;
+    margin-left: 1.76rem;
+    background: rgba(59,172,254,0.1);
+    border-radius: 0.36rem;
+    border: none;
+    color: #3BACFE;
+    font-size: 0.2rem;
+}
+.message1{
+    width: 5.18rem;
+    height: 0.89rem;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+}
+.message1 img{
+    float: left;
+    width: 0.48rem;
+    height: 0.55rem;
+    margin-top: 0.24rem;
+}
+.message1 input{
+    width: 2.48rem;
+    float: left;
+    margin-left: 0.36rem;
+    height: 0.89rem;
+    border: none;
+    outline: none;
+}
+.dec{
+    margin-top: 0.3rem;
+    height: 0.25rem;
+    margin-left: 1.13rem;
+}
+.spot1{
+    width: 0.13rem;
+    height: 0.13rem;
+    border-radius: 50%;
+    border: 0.06rem solid #e7f6ff;
+    background: #7AC2FE;
+    float: left;
+}
+.des{
+    font-size: 0.22rem;
+    line-height: 0.25rem;
+    color: rgba(0,0,0,0.3);
+    float: left;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+

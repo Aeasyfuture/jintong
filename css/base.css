@@ -3,7 +3,7 @@
     padding:0;
     list-style: none;
     font-size: 16px;
-    font-family: "苹方",San Francisco Display;
+    font-family: PingFangSC,San Francisco Display,"苹方";
 }
 a{
     text-decoration: none;
