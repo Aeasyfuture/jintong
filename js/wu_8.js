@@ -42,5 +42,24 @@ window.onload=function () {
     Return.onclick=function () {
         open("index_wu7.html","")
     }
+    
+    let navSec_allLi=document.querySelectorAll(".navSec_all li");
+    let sec_allLi=document.querySelectorAll(".sec_all");
+    let threeJan=document.querySelectorAll(".threeJan");
+    console.log(navSec_allLi,sec_allLi,threeJan);
+    navSec_allLi.forEach(function (v,i) {
+        v.onclick=function () {
+            navSec_allLi.forEach(function (v,i) {
+                sec_allLi[i].style.display="none";
+                navSec_allLi[i].style.borderBottom="";
+                navSec_allLi[i].style.color="";
+                threeJan[i].style.display="none";
+            });
+            sec_allLi[i].style.display="block";
+            navSec_allLi[i].style.borderBottom="0.04rem solid #fff";
+            navSec_allLi[i].style.color="#fff";
+            threeJan[i].style.display="block";
+        }
+    })
 
-}
+};
