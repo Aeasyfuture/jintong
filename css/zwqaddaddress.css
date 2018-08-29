@@ -1,0 +1,119 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height:13.34rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header{
+    width: 100%;
+    height: 0.92rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    background: #fff;
+    color: #4ebbfe;
+    padding-top: 0.40rem;
+    line-height: 0.92rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.92rem;
+    float: left;
+}
+
+header .icon-taobaozhongchou4qizuoyoujiantou1{
+    margin-left: 0.15rem;
+    line-height: 0.92rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+header span{
+    float: right;
+    margin-right: 3.31rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+.bg1{
+    width: 100%;
+    height: 1.71rem;
+    background: url("../img/bg.png") top;
+    background-size: 100% 1.71rem;
+}
+main{
+    width: 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 6.60rem;
+}
+section ul{
+    width: 100%;
+    height: 1.61rem;
+}
+.word{
+    width: 100%;
+    height: 0.26rem;
+    margin-bottom: 0.19rem;
+    box-sizing: border-box;
+}
+.left-point{
+    width: 0.1rem;
+    height: 0.05rem;
+    float: left;
+    margin-top: 0.1rem ;
+    margin-right: 0.11rem;
+    border-radius: 0.02rem;
+    background: #34da87;
+    box-shadow: 0.01rem 0 0.02rem 0.01rem #34da87;
+}
+.word-medium{
+    font-size: 0.26rem;
+    line-height: 0.26rem;
+    float: left;
+    font-weight: bold;
+    color: #41b2fc;
+}
+.select{
+    width: 0.24rem;
+    height: 0.24rem;
+    line-height: 0.26rem;
+    float: right;
+    color: #41b2fc;
+    font-size: 0.24rem;
+    text-align: right;
+}
+input{
+    width: 100%;
+    height: 0.83rem;
+    box-sizing: border-box;
+    background: #f1faff;
+    font-size: 0.24rem;
+    color: #b9c9d2;
+    outline: none;
+    border: none;
+    padding-left: 0.37rem;
+    margin-bottom: 0.33rem;
+}
+button{
+    width: 4.54rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.2rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: 0.6rem;
+    background-image: -webkit-linear-gradient(left,#37e06f,#32d69a);
+    box-shadow: 0 0.02rem 0.2rem 0.02rem #37df74;
+    margin-top: 0.16rem;
+    margin-left: 1.26rem;
+}

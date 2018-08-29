@@ -17,3 +17,7 @@ button:focus{
 input:focus{
     outline: none;
 }
+textarea{
+    outline: none;
+    border: none;
+}

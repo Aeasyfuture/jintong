@@ -8,5 +8,9 @@ window.onload=function () {
             circle2[i].classList.add("circle4");
         }
     })
+    let button=document.querySelector("button");
+    button.onclick=function(){
+        open("zwqpassword.html","");
+    }
 
 }

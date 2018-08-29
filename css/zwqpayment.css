@@ -171,6 +171,18 @@ nav ul li{
     background: #fff;
     border: 0.09rem solid #36a8fe;
 }
+/*.navRight input{*/
+    /*width: 0.25rem;*/
+    /*height: 0.25rem;*/
+    /*margin-top: 0.41rem;*/
+    /*background: #ddd;*/
+    /*border-radius: 50%;*/
+/*}*/
+/*.navRight input:focus{*/
+    /*background: #fff;*/
+    /*border: 0.09rem solid #36a8fe;*/
+/*}*/
+
 .circle3{
     background-image: -webkit-linear-gradient(top,#37e06f,#32d699);
 }

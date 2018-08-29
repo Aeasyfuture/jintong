@@ -1,5 +1,4 @@
 window.onload=function () {
-/*
     let circle2=document.querySelectorAll(".circle2");
     circle2.forEach(function(v,i){
         circle2[i].onclick=function(){
@@ -9,20 +8,16 @@ window.onload=function () {
             circle2[i].classList.add("circle4");
         }
     })
-*/
-/*    let point=document.querySelectorAll(".tanchukuang ul li");
-    let point1=document.querySelectorAll(".tanchukuang ul li .point");
+    let point=document.querySelectorAll(".tanchukuang li");
+    let point1=document.querySelectorAll(".tanchukuang li div");
     point.forEach(function(v,i){
         point[i].onclick=function(){
-            point1.forEach(function(va){
-                va.style.background="";
-                va.style.border="";
-                v.style.background="";
-            })
             point[i].style.background="#2fa5ff";
-            point1[i].style.background="#fff";
-            point1[i].style.border="0.05rem solid #1c8adf;";
+            point1[i].classList.add("point");
+            if (i==point.length-1){
+                open("zwqindex.html");
+            }
         }
-    })*/
+    })
 
 }

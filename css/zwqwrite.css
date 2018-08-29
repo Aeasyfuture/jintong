@@ -1,0 +1,314 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height:13.34rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header{
+    width: 100%;
+    height: 0.92rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    background: #fff;
+    color: #4ebbfe;
+    padding-top: 0.40rem;
+    line-height: 0.92rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.92rem;
+    float: left;
+}
+
+header .icon-taobaozhongchou4qizuoyoujiantou1{
+    margin-left: 0.15rem;
+    line-height: 0.92rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    font-weight: bold;
+}
+header span{
+    float: right;
+    margin-right: 3.31rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+.bg1{
+    width: 100%;
+    height: 1.67rem;
+    background: url("../img/bg.png") top;
+    background-size: 100% 1.71rem;
+}
+main{
+    width: 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+.top{
+    width: 100%;
+    height: 0.74rem;
+    padding: 0.42rem 0 0.36rem;
+    background: #f1faff;
+}
+.topName{
+    width: 100%;
+    height: 0.37rem;
+}
+.topName span{
+    margin-left: 0.36rem;
+    font-size: 0.24rem;
+    line-height: 0.37rem;
+    font-weight: 400;
+    color: #3bacfe;
+}
+.topName .bold{
+    font-size: 0.3rem;
+    font-weight: 900;
+    font-family: San Francisco Display;
+}
+.arrow{
+    width: 0.72rem;
+    height: 0.37rem;
+    float: right;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.37rem;
+    font-weight: bold;
+    color: #3bacfe;
+}
+.where{
+    width: 100%;
+    height: 0.37rem;
+}
+.where span{
+    margin-left: 1.49rem;
+    font-size: 0.24rem;
+    line-height: 0.37rem;
+    color: #787d7f;
+}
+.medium{
+    width: 100%;
+    height: 2.38rem;
+    padding: 0.32rem 0;
+    box-sizing: border-box;
+}
+.picture{
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+}
+.picture img{
+    width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 0.5rem 0.05rem #dfdfdf;
+}
+.word{
+    width: 5.04rem;
+    height: 1.74rem;
+    float: right;
+}
+.wordTop{
+    width: 100%;
+    height: 0.47rem;
+    padding-top: 0.26rem;
+    font-size: 0.3rem;
+    line-height: 0.47rem;
+    color: #000;
+    font-family: PingFangSC;
+}
+.wordMedium{
+    width: 100%;
+    height: 0.38rem;
+    font-size: 0.22rem;
+    line-height: 0.38rem;
+    color: #afb1b2;
+}
+.wordBottom{
+    width: 100%;
+    height: 0.56rem;
+    font-size: 0.24rem;
+    line-height: 0.56rem;
+    color: #36a8fe;
+    font-family: PingFangSC;
+}
+.wordBottom span{
+    font-size: 0.3rem;
+    font-weight: 500;
+    font-family: San Francisco Display;
+}
+.bottom{
+    width: 100%;
+    height: 4.01rem;
+    padding-top: 0.27rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.text{
+    width: 100%;
+    height: 0.8rem;
+    font-family: PingFangSC;
+}
+.circle{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.36rem;
+    background: #44B5FF;
+    box-shadow: 0 0.1rem 0.15rem 0.01rem rgba(68,181,255,0.43);
+    float: left;
+    margin-top: 0.35rem;
+    margin-left: 0.02rem;
+}
+.textWord{
+    width: 1.95rem;
+    height: 100%;
+    float: left;
+    margin-left: 0.1rem;
+    font-size: 0.26rem;
+    line-height: 0.8rem;
+    color: #41b2fc;
+}
+.textWord span{
+    font-size: 0.26rem;
+    margin-left: 0.04rem;
+    color: #4f5b64;
+}
+.textRight{
+    width: 3.67rem;
+    height: 0.8rem;
+    float: right;
+}
+textarea{
+    width: 100%;
+    height: 2.94rem;
+    background: #f1faff;
+    outline: none;
+    border: none;
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    color: #b9c9d2;
+    border-radius: 0.2rem;
+    padding: 0.33rem 0 0 0.33rem;
+    box-sizing: border-box;
+}
+.photo{
+    width: 1.01rem;
+    height: 1.01rem;
+    border-radius: 0.15rem;
+    background-image: -webkit-linear-gradient(left,#37e06f,#32d69a);
+    box-shadow: 0 0.02rem 0.2rem 0.02rem #37df74;
+    position: absolute;
+    left: 0.36rem;
+    bottom: 0.46rem;
+}
+.photo img{
+    width: 0.49rem;
+    height: 0.42rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 0.8rem;
+    padding-top: 0.67rem;
+    font-family: PingFangSC;
+}
+.first{
+    width: 0.55rem;
+    height: 0.8rem;
+    float: left;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    color: #b9c9d2;
+}
+.date{
+    width: 0.77rem;
+    height: 0.8rem;
+    float: left;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    margin-left: 0.16rem;
+    color: #3bacfe;
+}
+.time{
+    width: 1.58rem;
+    height: 0.8rem;
+    float: left;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    margin-left: 0.19rem;
+    color: #3bacfe;
+}
+.arrow1{
+    width: 0.2rem;
+    height: 0.8rem;
+    float: right;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-weight: bold;
+    color: #3bacfe;
+}
+footer{
+    width: 100%;
+    height: 1.08rem;
+    padding: 0.26rem 0 0.22rem;
+    box-sizing: border-box;
+    background: #f1faff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.circle1{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 0.36rem;
+    background: #44B5FF;
+    box-shadow: 0 0.1rem 0.15rem 0.01rem rgba(68,181,255,0.43);
+    float: left;
+    margin-top: 0.29rem;
+    margin-left: 0.02rem;
+}
+.textWord1{
+    width: 1.95rem;
+    height: 0.6rem;
+    float: left;
+    margin-left: 0.11rem;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    color: #84cbfe;
+}
+.textWord1 span{
+    font-size: 0.34rem;
+    margin-left: 0.04rem;
+    color: #36a8fe;
+    font-weight: bold;
+}
+button{
+    width: 3.5rem;
+    height: 0.6rem;
+    float: right;
+    border-radius: 0.3rem;
+    font-size: 0.24rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: 0.6rem;
+    background-image: -webkit-linear-gradient(left,#3bacfe,#3bacfe);
+    box-shadow: 0.03rem 0 0.1rem 0.03rem rgba(59,172,254,0.45);
+}
