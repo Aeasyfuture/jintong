@@ -1,0 +1,644 @@
+@import url(base.css);
+.bg{
+    width: 7.5rem;
+    height: 27.82rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fbfeff;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.88rem;
+
+}
+header .icon-taobaozhongchou4qizuoyoujiantou1{
+    margin-left: 0.15rem;
+    line-height: 0.88rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    font-weight: bold;
+    float: left;
+}
+header span{
+    float: left;
+    margin-left:2.6rem;
+    font-size: 0.38rem;
+    font-weight: bold;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+}
+.jianbian{
+    height: 0.39rem;
+    float: left;
+}
+section{
+    width: 100%;
+}
+main{
+    width: 7.03rem;
+    height: auto;
+    margin: 0 auto;
+}
+.main_pic{
+    width: 7.03rem;
+    height: 7.03rem;
+}
+.main_pic img{
+    width: 3.01rem;
+    height: 3.62rem;
+    margin-top: 1.26rem;
+    margin-left: 2rem;
+}
+.main_word1{
+    width: 100%;
+    height: 0.44rem;
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: bold;
+}
+.main_word2{
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+.main_word3{
+    width: 100%;
+    height: 0.6rem;
+}
+.main_word3_le{
+    width: 1.3rem;
+    height: 0.6rem;
+    font-size: 0.26rem;
+    color: #fbb548;
+    line-height: 0.6rem;
+    float: left;
+    font-weight: bold;
+}
+.main_word3 .taiyuan{
+    width: 0.78rem;
+    height: 0.36rem;
+    background: #e7f6ff;
+    border-radius: 0.36rem;
+    float: left;
+    margin-top: 0.12rem;
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #36A8FE;
+    text-align: center;
+    line-height: 0.36rem;
+}
+.main_word3 .taiyuan1{
+    width: 1.13rem;
+    color: #36d681;
+    margin-left: 0.3rem;
+}
+.main_word3_ri{
+    width: 1.12rem;
+    height: 0.6rem;
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 0.6rem;
+    float: right;
+}
+.main_word3_ri .circle1{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #37CE9A;
+    box-shadow: 0 0.01rem 0.15rem 0.01rem rgba(55,206,154,0.43);
+    float: left;
+    margin-top: 0.27rem;
+    margin-right: 0.06rem;
+}
+.main_word3_ri span{
+    color: #36a8fe;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    float: right;
+    font-weight: bold;
+    margin-left: 0.08rem;
+}
+.lingjuan{
+    height: 0.85rem;
+    float: left;
+}
+.main_word4{
+    width: 100%;
+    height: 0.85rem;
+    border-top: 0.01rem solid #f0f5f7;
+    border-bottom: 0.01rem solid #f0f5f7;
+
+}
+.main_word4 img{
+    width: 0.4rem;
+    height: 0.36rem;
+    margin-top: 0.28rem;
+    float: left;
+}
+.main_word4_w{
+    font-size: 0.24rem;
+    color: #ff844e;
+    font-family: 微软雅黑;
+    line-height: 0.85rem;
+    font-weight: bold;
+    float: left;
+    margin-left: 0.12rem;
+}
+.main_word4_ri{
+    width: 1.84rem;
+    height: 0.39rem;
+    background-image: -webkit-linear-gradient(left,#ff933b,#ffc93b);
+    float: left;
+    border-radius: 0.19rem;
+    margin-top: 0.23rem;
+    margin-left: 0.14rem;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.39rem;
+}
+.main_word5{
+    width: 100%;
+    height: 0.76rem;
+    border-bottom: 0.01rem solid #f0f5f7;
+}
+.main_word5_le{
+    width: 1.45rem;
+    height: 100%;
+    margin-right: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    color: #70c5fd;
+    float: left;
+    font-weight: bold;
+}
+.main_word5_ce{
+    width: 1.25rem;
+    height: 100%;
+    margin-right: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    color: #70c5fd;
+    float: left;
+    font-weight: bold;
+}
+.main_word5_ri{
+    width: 1.90rem;
+    height: 100%;
+    margin-right: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    color: #70c5fd;
+    float: left;
+    font-weight: bold;
+}
+.le_le_pot1{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #36d681;
+    box-shadow: 0 0.02rem 0.04rem 0.001rem #d4f6e6;
+    margin-top: 0.35rem;
+    margin-right: 0.15rem;
+    float: left;
+}
+.next{
+    height: 0.42rem;
+    float: left;
+    margin-top: 0.36rem;
+
+}
+.next .circle{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.36rem;
+    background: #44B5FF;
+    box-shadow: 0 0.01rem 0.15rem 0.01rem rgba(68,181,255,0.43);
+    float: left;
+    margin-top: 0.22rem;
+    margin-left: 0.26rem;
+}
+.next span{
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #44B5FF;
+    float: left;
+    margin-left: 0.12rem;
+    font-family:"微软雅黑";
+}
+.next .span1{
+    color: #4f5b64;
+    float: left;
+    margin-left: 0;
+}
+.next .all{
+    width: 1.18rem;
+    color: #3BACFE;
+    font-size: 0.22rem;
+    float: right;
+    margin-top: 0.06rem;
+    margin-right: 0.23rem;
+}
+.next .all img{
+    width: 0.22rem;
+    height: 0.22rem;
+    float: right;
+    margin-top: 0.08rem;
+}
+.nei{
+    padding: 0 0.24rem;
+}
+
+.next1{
+    height: 0.88rem;
+    float: left;
+    padding-top: 0.3rem;
+    border-bottom: 0.01rem solid #f0f5f7;
+    box-sizing: border-box;
+    background: #fbfeff;
+}
+.next1 .circle1{
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.36rem;
+    background: #35db82;
+    box-shadow: 0 0.01rem 0.15rem 0.01rem rgba(53,219,130,0.43);
+    float: left;
+    margin-top: 0.22rem;
+    margin-left: 0.02rem;
+}
+.next1 span{
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #35db82;
+    float: left;
+    margin-left: 0.12rem;
+    font-family:"微软雅黑";
+}
+.next1 .span1{
+    color: #4f5b64;
+    float: left;
+    margin-left: 0;
+}
+.next2{
+    border: none;
+}
+.commitall{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.commitall .section1{
+    width: 100%;
+    height: 2.16rem;
+    background: #fbfeff;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #f0f5f7;
+    margin-top: 0.25rem;
+}
+.commitall section{
+    width: 100%;
+    height: 3.75rem;
+    background: #fbfeff;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #f0f5f7;
+}
+.commitall section .shoes{
+    width: 1.8rem;
+    height: 1.01rem;
+    margin-top: 0.14rem;
+}
+.commitall .section1 .sec_le {
+    height: 1.88rem;
+}
+.sec_le{
+    width: 0.85rem;
+    height: 2.16rem;
+    float: left;
+}
+.sec_le img{
+    width: 0.85rem;
+    height: 0.85rem;
+    margin-top: 0.31rem;
+}
+.sec_ri{
+    width:6.16rem;
+    height: 1.88rem;
+    padding-left: 0.22rem;
+    box-sizing: border-box;
+    float: left;
+}
+.sec_ri img{
+    width: 1.85rem;
+    height: 1rem;
+    margin-top: 0.2rem;
+}
+.sec_ri_word1{
+    width: 5.94rem;
+    height: 0.5rem;
+    margin-top: 0.44rem;
+    font-size: 0.2rem;
+    color: #cfcfcf;
+    line-height: 0.5rem;
+}
+.sec_ri_word1 span{
+    float: left;
+    font-size: 0.2rem;
+    color: #cfcfcf;
+    line-height: 0.5rem;
+}
+.word1_ri{
+    float: right;
+    color: #9ed5ff;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+}
+.sec_ri_word2{
+    height: 0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.6);
+    font-weight: bold;
+}
+.sec_ri_word3{
+    height: 0.43rem;
+    line-height: 0.43rem;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+.sec_ri_word4{
+    width: 1.48rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.32rem;
+}
+.sec_ri_word4 img{
+    width: 0.74rem;
+    height: 0.19rem;
+    float: left;
+    margin-top: 0.16rem;
+}
+.sec_ri_word4 .xing{
+    width: 0.47rem;
+    height: 0.19rem;
+    float: left;
+    margin-left: 0.07rem;
+}
+.water{
+    width: 100%;
+    height: 6.42rem;
+    float: left;
+    background: #fbfeff;
+}
+.water ul{
+    width: 100%;
+    height: 6.42rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.water ul li{
+    width: 2.5rem;
+    height: 2.14rem;
+    padding-left: 0.24rem;
+    padding-top: 0.45rem;
+    box-sizing: border-box;
+}
+.water ul li img{
+    width: 1.31rem;
+    height: 1.37rem;
+    margin-left: 0.15rem;
+}
+.water ul li .dec{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+}
+footer{
+    width: 100%;
+    height: 1.08rem;
+    background: #f1faff;
+    float: left;
+}
+.foot_le1{
+    width: 0.52rem;
+    height: 100%;
+    margin-left: 0.43rem;
+    font-size: 0.2rem;
+    color: #84cbfe;
+    text-align: center;
+    float: left;
+}
+.foot_le1 img{
+    width: 0.54rem;
+    height: 0.54rem;
+    margin-top: 0.1rem;
+}
+.foot_le2{
+    width: 1rem;
+    height: 100%;
+    margin-left: 0.48rem;
+    font-size: 0.2rem;
+    color: #84cbfe;
+    text-align: center;
+    float: left;
+}
+.foot_le2 img{
+    width: 0.55rem;
+    height: 0.54rem;
+    margin-top: 0.1rem;
+
+}
+.le2_word{
+    width:1rem;
+    font-size: 0.2rem;
+    color: #84cbfe;
+    text-align: center;
+    float: left;
+}
+.foot_ri{
+    width: 4.21rem;
+    height: 100%;
+    margin-right: 0.26rem;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot_ri_le{
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background-image: -webkit-linear-gradient(left,#37e06f,#32d699);
+    font-size: 0.2rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0 0.08rem 0.2rem 0.01rem #a7eec8;
+}
+.foot_ri_ri{
+    width: 1.96rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background:#3bacfe;
+    font-size: 0.2rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0 0.08rem 0.2rem 0.01rem #bbe2ff;
+}
+.tanchu{
+    width: 100%;
+    height: 7.96rem;
+    background: #fff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    z-index: 20;
+    position: fixed;
+    bottom: -7.96rem;
+    left: 0;
+}
+.tanchu .now{
+    width: 100%;
+    height: 0.56rem;
+    padding-left: 2.86rem;
+    margin-top: 0.19rem;
+}
+.tanchu .now span{
+    font-size: 0.22rem;
+    color: #3bacfe;
+    float: left;
+    margin-top: 0.16rem;
+}
+.tanchu .now .discount{
+    font-size: 0.22rem;
+    color: #000;
+    float: left;
+    margin-top: 0.16rem;
+}
+.tanchu .now .cheng{
+    font-size: 0.48rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.3);
+    float: left;
+    margin-left: 2.68rem;
+}
+.tanchu ul{
+    width: 100%;
+    height: 5.18rem;
+    margin-top: 0.23rem;
+}
+.tanchu ul li{
+    width: 100%;
+    height: 1.28rem;
+    border-bottom: 2px solid #f0f5f7;
+    position: relative;
+}
+.first{
+    width: 0.8rem;
+    height: 0.4rem;
+    margin-top: 0.21rem;
+}
+.spot{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #3bacfe;
+    box-shadow: 0 0.02rem 0.04rem 0.001rem rgba(68,181,255,0.43);
+    margin-top: 0.2rem;
+    margin-right: 0.1rem;
+    float: left;
+}
+.yuan{
+    color:#3bacfe;
+    font-weight: bold;
+}
+.yuan .yuan1{
+    font-size: 0.3rem;
+    color:#3bacfe;
+    font-weight: bold;
+}
+.yuan span{
+    font-size: 0.1rem;
+    color:#3bacfe;
+    font-weight: bold;
+}
+.second{
+    height: 0.22rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    margin-left: 0.14rem;
+}
+.third{
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.3);
+    margin-top: 0.08rem;
+    margin-left: 0.14rem;
+}
+.receive{
+    width: 0.98rem;
+    height: 0.36rem;
+    border: none;
+    background: #3BACFE;
+    box-shadow: 0 0 0.15rem 0.01rem rgba(59,172,254,0.43);
+    border-radius: 0.36rem;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.36rem;
+    font-weight: normal;
+    position: absolute;
+    top: 0.52rem;
+    right: 0;
+}
+.receive{
+    width: 0.98rem;
+    height: 0.36rem;
+    border: none;
+    background: #3BACFE;
+    box-shadow: 0 0 0.15rem 0.01rem rgba(59,172,254,0.43);
+    border-radius: 0.36rem;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.36rem;
+    font-weight: normal;
+    position: absolute;
+    top: 0.52rem;
+    right: 0;
+}
+.close{
+    width: 4.54rem;
+    height: 0.6rem;
+    border: none;
+    background-image: -webkit-linear-gradient(left,#37e06f,#32d69a);
+    box-shadow: 0 0 0.15rem 0.04rem rgba(55,223,116,0.75);
+    border-radius: 0.36rem;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-weight: normal;
+    margin-top: 0.84rem;
+    margin-left: 1.22rem;
+}

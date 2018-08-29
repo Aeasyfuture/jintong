@@ -8,4 +8,8 @@ window.onload=function () {
             v.style.color="#36A8FE";
         }
     })
+    let input=document.querySelector("nav input");
+    input.onclick=function () {
+        open("nhsearch.html","");
+    }
 }

@@ -36,4 +36,12 @@ window.onload=function () {
             now=next=i;
         }
     })
+    let input=document.querySelector("nav input");
+    input.onclick=function () {
+        open("nhsearch.html","");
+    }
+    let my=document.querySelector(".my");
+    my.onclick=function () {
+        open("nhweixin.html","");
+    }
 }
