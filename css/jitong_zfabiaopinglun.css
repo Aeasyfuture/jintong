@@ -1,0 +1,258 @@
+@import url(base.css);
+    .bg{
+        width: 7.5rem;
+        height:13.34rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    header{
+        width: 100%;
+        height: 0.88rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+    header a{
+        width: 0.7rem;
+        height: 0.88rem;
+        float: left;
+    }
+
+    header .icon-taobaozhongchou4qizuoyoujiantou1{
+        margin-left: 0.15rem;
+        line-height: 0.88rem;
+        color: #36a8fe;
+        font-size: 0.36rem;
+        font-weight: bold;
+    }
+    header span{
+        float: right;
+        margin-right: 3.31rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+/*内容*/
+    .nr{
+        width: 100%;
+        height: 10.6rem;
+        background: #fbffff;
+    }
+    .nr .xing{
+        width: 100%;
+        height: 0.8rem;
+        /*background: #ffffff;*/
+        position: relative;
+    }
+    .nr .xingxing span{
+        font-size: 0.12rem;
+        padding-top: 0.11rem;
+        color: #f8eb77;
+        margin-left: 0.06rem;
+        position: absolute;
+    }
+    .nr .xx{
+        position: absolute;
+        left: 90px;
+        margin-left: 0.23rem;
+    }
+    .nr .xx div{
+        width: 20px;
+        height:20px;
+        background: url("../img/xingxing1.png") no-repeat center;
+        background-size: 20px 20px;
+        float: left;
+
+    }
+
+    .nr .xx .btn{
+        width: 20px;
+        height:20px;
+        background: url("../img/xingxing.png") no-repeat center;
+        background-size: 20px 20px;
+        /*float: left;*/
+    }
+    .nr .xx .circle:nth-child(5){
+        margin-right: 0;
+    }
+
+
+    .nr .pingjia{
+        position: absolute;
+        margin-left: 0.23rem;
+        right: 13px;
+    }
+    .nr  .wenben{
+        width: 90%;
+        height:1.5rem;
+        padding-left: 2%;
+        margin-left: 0.23rem;
+        right: 13px;
+        font-size: 10px;
+    }
+/*相机部分  */
+    .nr .zb{
+        width: 100%;
+        height: 2.17rem;
+        /*background: red;*/
+        margin-top:12px; 
+        padding-left: 12px;
+    }
+    .nr .zb .xj{
+        width: 70px;
+        height: 60px;
+        background: url(../img/xiangji.png)no-repeat center;
+        
+    }
+
+    .nr .zb div{
+        font-size:12px;
+        color:#afb0b2;
+    }
+    .nr .zb .yuan{
+        width:8px;
+        height: 8px;
+        /*background: #92897c;*/
+        border-radius: 50%;
+        border: 2px solid #a0d4fb;
+        float: left;
+        margin-right: 10px;
+        margin-top: 26px;
+
+    }
+    .nr .zb .hhh{
+        margin-top: 20px;
+        font-size:14px;
+        color:#909495;
+        float: left;
+    }
+    .nr .zb .hh{
+        margin-top: 20px;
+        font-size:14px;
+        color:#909495;
+        width: 55%;
+        float: right;
+    }
+    .nr .xd{
+        width: 100%;
+        height: 2rem;
+        /*background: red;*/
+        position: relative;
+    }
+    .nr .xd .ms{
+        font-size: 13px;
+        position:absolute;
+        top:22px;
+        left: 10px;
+    }
+    .nr .xingxing1 span{
+        font-size: 0.12rem;
+        padding-top: 0.11rem;
+        color: #f8eb77;
+        margin-left: 0.01rem;
+        position: absolute;
+        margin-top: 10px;
+    }
+    .nr .xd .xingxing1 .wl{
+        position: absolute;
+        left: 11px;
+        top:40px;
+    }
+    .nr .xd .xx1{
+        position: absolute;
+        top:40px;       
+        left: 90px;
+        margin-left: 0.23rem;
+    }
+    .nr .xd .xx1 .circle{
+        z-index: 5;
+        width: 20px;
+        height:20px;
+        background: url("../img/xingxing1.png") no-repeat center;
+        background-size: 20px 20px;
+        float: left;
+    }
+
+    .nr .xd .xx1 .btn{
+        background: url("../img/xingxing.png") no-repeat center;
+        background-size: 20px 20px;
+    }
+    .nr .xd .xx1 .circle:nth-child(5){
+        margin-right: 0;
+    }
+    .nr .xd .pingjia1{
+        position: absolute;
+        margin-left: 0.23rem;
+        right: 13px;
+        top:40px;
+    }
+
+    .nr .xingxing2 span{
+        font-size: 0.12rem;
+        padding-top: 0.11rem;
+        color: #f8eb77;
+        margin-left: 0.01rem;
+        position: absolute;
+        margin-top: 40px;
+    }
+    .nr .xd .xingxing2 .wl1{
+        position: absolute;
+        left: 11px;
+        top:40px;
+    }
+    .nr .xd .xx2{
+        position: absolute;
+        top:40px;       
+        left: 90px;
+        margin-left: 0.23rem;
+    }
+    .nr .xd .xx2 .circle{
+        z-index: 5;
+        width: 20px;
+        height:20px;
+        background: url("../img/xingxing1.png") no-repeat center;
+        background-size: 20px 20px;
+        float: left;
+    }
+
+    .nr .xd .xx2 .btn{
+        background: url("../img/xingxing.png") no-repeat center;
+        background-size: 20px 20px;
+    }
+    .nr .xd .xx2 .circle:nth-child(5){
+        margin-right: 0;
+    }
+    .nr .xd .pingjia2{
+        position: absolute;
+        margin-left: 0.23rem;
+        right: 13px;
+        top:40px;
+    }
+/*按钮    */
+    .nr .nn {
+        display: flex;
+        padding-top: 2.8rem;
+
+
+    }
+    .nr .nn button{
+        height: 0.6rem;
+        width: 2rem;
+        height: 0.56rem;
+        border:0px ;
+        border-radius: 30% 30%;
+    }
+    .nr .nn .quxiaodingdan{
+    /*  margin-left: 2.8rem*/;
+        margin:0 auto;
+        background: #35df75;
+        width: 3rem;
+        height: 0.56rem;
+        font-size: 0.24rem;
+        color: #569fd2;
+    }

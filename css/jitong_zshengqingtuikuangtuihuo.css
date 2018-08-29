@@ -1,0 +1,412 @@
+@import url(base.css);
+    .bg{
+        width: 7.5rem;
+        height:13.34rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    header{
+        width: 100%;
+        height: 0.88rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+    header a{
+        width: 0.7rem;
+        height: 0.88rem;
+        float: left;
+    }
+
+    header .icon-taobaozhongchou4qizuoyoujiantou1{
+        margin-left: 0.15rem;
+        line-height: 0.88rem;
+        color: #36a8fe;
+        font-size: 0.36rem;
+        font-weight: bold;
+    }
+    header span{
+        float: right;
+        margin-right: 3.31rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+    /*内容*/
+    .nr{
+        width: 100%;
+        height: 13rem;
+        background: #fbffff;
+        padding-top: 10px;
+    }
+    .nr ul{
+        width:100%;
+        height: 3.3rem;
+        background: #f1fcfc;
+        display: flex;
+    }
+    .nr ul .tupian{
+        width: 2rem;
+        height: 3.3rem;
+        background: url("../img/waterhead.png")no-repeat center;
+        background-size: 1.28rem;
+    }
+    .nr ul .qianshui{
+        margin-top: 0.5rem;
+        /*margin-left: */
+        font-size: 0.32rem;
+        color:#555555;
+    }
+    .nr ul .guige span{
+        font-size: 0.18rem;
+        color:#5a9cce;
+    }
+    .nr ul .guige1 span{
+        font-size: 0.2rem;
+        color: #d1d1d1;
+    }
+    .nr ul .jiage{
+        margin-top: 0.42rem;
+    }
+    .nr ul .jiage span{
+        font-size: 0.30rem;
+        color: #7e7e7e;
+    }
+    .nr ul .shifukuang{
+        margin-top:2.2rem;
+        margin-left: 1.3rem;
+        font-size: 0.1rem;
+        color: #7e7e7e;
+    }
+    .nr ul .shifukuang1 span{
+        margin-top:0.1rem;
+        font-size: 0.3rem;
+        color: #eeb659;
+    }
+/*支付*/
+    .nr .tknr{
+        width: 100%;
+        height: 115px;
+        /*background: #eef9f9;*/
+        /*margin-left: 3%;*/
+        margin-top: 10px;
+    }   
+    .nr .tknr .jtk{
+        width:100% ;
+        height:48px;
+        /*margin-left: 2%;*/
+        font-size: 17px;
+        color:#b3b7b8;
+        margin-top:6px;
+        border-bottom: 3px solid #f5f8f9;
+        line-height: 52px;
+        position: relative;
+    }
+    .nr .tknr .fwlx{
+        margin-left: 3%;
+    }
+    .nr .tknr .jtk .fwlx .fwlxa{
+        width: 1.1rem;
+        height:40px;
+    }
+/*服务类型弹框    */
+    
+    .nr .tknr .jtk .tankuang .tknr1{
+        width: 100%;
+        position:absolute;
+        top:5.3rem;
+        left: 8.5rem;
+        /*left: -5px;*/
+        width: 100%;
+        height: 220px;
+        background: #ffffff;
+        /*box-shadow:0 0 30px 12rem rgba(0, 0, 0, 0.4); */
+        /*box-shadow:0;*/
+        /*margin-top:6.7rem;*/
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .nn {
+        display: flex;
+        padding-top: 0.6rem;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .nn button{
+        height: 0.6rem;
+        width: 2rem;
+        height: 0.56rem;
+        border:0px ;
+        border-radius: 30% 30%;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .nn .quxiaodingdan{
+        margin:0 auto;
+        background: #35df75;
+        width: 5rem;
+        height: 0.76rem;
+        font-size: 0.3rem;
+        color: #569fd2;
+    }
+
+    .nr .tknr .jtk .tankuang .tknr1 .toubu{
+        width: 100%;
+        height: 0.4rem；
+        font-size: 10px;
+        color: #000000;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .toubu .guanbix{
+        float: right;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .jtk2{
+        width: 96%;
+        margin: 0 auto;
+        height: 1rem;
+        border-bottom: 2px solid#f5f5f5;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .jtk2 span{
+        font-size: 11px;
+        color: #707173;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .jtk2{
+        width: 96%;
+        margin: 0 auto;
+        height: 1rem;
+        border-bottom: 1px solid#f5f5f5;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .jtk2 span{
+        font-size: 11px;
+        color: #707173;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .jtk3{
+        width: 96%;
+        margin: 0 auto;
+        height: 1rem;
+
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .jtk3 span{
+        font-size: 11px;
+        color: #707173;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .yuan{
+        width: 12px;
+        height: 12px;
+        background: #2fa6f8;
+        border-radius: 50%;
+        float: right;
+        margin-top: 25px;
+        margin-right: 5px;
+    }
+    .nr .tknr .jtk .tankuang .tknr1 .yuan1{
+        width: 5px;
+        height: 5px;
+        background: #ffffff;
+        border-radius: 50%;
+        margin-left: 3px; 
+        margin-top: 3px;
+
+    }
+
+/*弹框结束*/
+
+    .nr .tknr .jtk span{
+        font-size: 11px;
+        color: #707173;
+    }   
+    .nr .tknr .jtk .mcll{
+        width: 20px;
+        float: right;
+        margin-right: 2%;
+    }
+    .nr .tknr .jtk .mcl{
+        width: 60px;
+        float: right;
+    }
+    .nr .tknr .jtk1{
+        width:100% ;
+        height:52px;
+        /*padding-left: 2%;*/
+        font-size: 17px;
+        color:#b3b7b8;
+        margin-top:6px;
+        /*border-bottom: 3px solid #999898;*/
+        line-height: 52px;
+        position: relative;
+    }
+
+    .nr .tknr .jtk1 span{
+        font-size: 11px;
+        color: #707173;
+    }   
+    .nr .tknr .jtk1 .mcll{
+        width: 20px;
+        float: right;
+        margin-right: 2%;
+    }
+    .nr .tknr .jtk1 .mcl{
+        width: 60px;
+        float: right;
+    }
+/*退款原因  */
+    
+    .nr .tknr .jtk1 .tankuang .tknr2{
+        width: 100%;
+        position:absolute;
+        top:0.78rem;
+        left: 8.5rem;
+        /*left: -5px;*/
+        width: 100%;
+        height: 8rem;
+        background: #ffffff;
+        /*box-shadow:0 0 30px 12rem rgba(0, 0, 0, 0.4); */
+        box-shadow:0;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .toubu{
+        width: 100%;
+        height: 0.4rem；
+        font-size: 10px;
+        color: #000000;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .toubu .guanbix{
+        float: right;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .jtk2{
+        width: 96%;
+        margin: 0 auto;
+        height: 1rem;
+        border-bottom: 2px solid#f5f5f5;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .jtk2 span{
+        font-size: 11px;
+        color: #707173;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .jtk2{
+        width: 96%;
+        margin: 0 auto;
+        height: 1rem;
+        border-bottom: 1px solid#f5f5f5;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .jtk2 span{
+        font-size: 11px;
+        color: #707173;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .jtk3{
+        width: 96%;
+        margin: 0 auto;
+        height: 1rem;
+
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .jtk3 span{
+        font-size: 11px;
+        color: #707173;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .yuan{
+        width: 12px;
+        height: 12px;
+        background: #2fa6f8;
+        border-radius: 50%;
+        float: right;
+        margin-top: 25px;
+        margin-right: 5px;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .yuan1{
+        width: 5px;
+        height: 5px;
+        background: #ffffff;
+        border-radius: 50%;
+        margin-left: 3px; 
+        margin-top: 3px;
+
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .nn {
+        display: flex;
+        padding-top: 0.6rem;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .nn button{
+        height: 0.6rem;
+        width: 2rem;
+        height: 0.56rem;
+        border:0px ;
+        border-radius: 30% 30%;
+    }
+    .nr .tknr .jtk1 .tankuang .tknr2 .nn .quxiaodingdan{
+        margin:0 auto;
+        background: #35df75;
+        width: 5rem;
+        height: 0.76rem;
+        font-size: 0.3rem;
+        color: #569fd2;
+    }
+
+/*退款原因弹框结束  */
+    .nr .tknr .jine span{
+        font-size: 12px;
+        color: #707173;
+    }
+    .nr .tknr .jine .jiag{
+        margin-top: 11px;
+        font-size: 12px;
+        color: #f0c368;
+        padding-left: 11px;
+    }
+    .nr  .wenben{
+        width: 90%;
+        height:1.5rem;
+        padding-left: 2%;
+        margin-left: 0.23rem;
+        margin-top: 60px;
+        right: 13px;
+        font-size: 10px;
+    }
+/*相机部分  */
+    .nr .zb{
+        width: 100%;
+        height: 2.17rem;
+        /*background: red;*/
+        margin-top:12px; 
+        padding-left: 12px;
+    }
+    .nr .zb .xj1{
+        margin-top: 5px;
+        width: 70px;
+        height: 60px;
+        background: #2de277;
+    }
+    .nr .zb .xj{
+        width: 70px;
+        height: 60px;
+        background: url(../img/xiangji1.png)no-repeat center;
+    }
+    .nr .zb .xj2{
+        width: 70px;
+        height: 60px;
+        background: url(../img/lvyuan.png)no-repeat center;
+    }
+    .nr .zb div{
+        font-size: 12px;
+        color: #707173;
+    }
+/*提交*/
+    .nr .nnn {
+        display: flex;
+        padding-top: 0.6rem;
+    }
+    .nr .nnn button{
+        height: 0.6rem;
+        width: 2rem;
+        height: 0.56rem;
+        border:0px ;
+        border-radius: 30% 30%;
+    }
+    .nr .nnn .quxiaodingdan{
+        margin:0 auto;
+        background: #35df75;
+        width: 5rem;
+        height: 0.76rem;
+        font-size: 0.3rem;
+        color: #569fd2;
+    }

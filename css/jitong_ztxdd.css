@@ -1,0 +1,231 @@
+@import url(base.css);
+    .bg{
+        width: 7.5rem;
+        height:13.34rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    header{
+        width: 100%;
+        height: 0.88rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+    header a{
+        width: 0.7rem;
+        height: 0.88rem;
+        float: left;
+    }
+
+    header .icon-taobaozhongchou4qizuoyoujiantou1{
+        margin-left: 0.15rem;
+        line-height: 0.88rem;
+        color: #36a8fe;
+        font-size: 0.36rem;
+        font-weight: bold;
+    }
+    header span{
+        float: right;
+        margin-right: 3.31rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+
+
+/*内容*/  
+    .nr{
+        width: 100%;
+        height: 15.25rem;
+        background: #f1fcfc;
+    }
+
+/*服务*/
+    .nr  .toubu{
+        width: 100%;
+        height: 0.4rem;
+        padding-top: 0.2rem;
+    }
+    .nr .fw ul{
+        
+        width: 94%;
+        height: 2.8rem;
+        background: #ffffff;
+        margin-left: 3%;
+        overflow: hidden;
+    }
+    .nr .fw .li1{
+        margin-left: 0.1rem;
+        width: 100%;
+        height: 0.9rem;
+        border-bottom:0.01rem solid #f1f1f1;
+        font-size: 0.22rem;
+        color:#b7b7b7;
+        line-height:  1rem;
+        line-height: 0.9rem;
+    }
+    .nr .fw .li1 .input1,.nr .fw .li1 .input2{
+        width: 20%;
+        height: 0.7rem;
+        border:0.00rem solid #f1f1f1;
+        font-size: 0.25rem;
+        color:#b7b7b7;
+        line-height:  1rem;
+        margin-left: 3.6rem;
+    }
+    .nr .fw .li1 .input3{
+        width: 60%;
+        height: 0.7rem;
+        border:0.00rem solid #f1f1f1;
+        font-size: 0.22rem;
+        color:#b7b7b7;
+        line-height:  1rem;
+        margin-left: 1.3rem;
+    }
+/*  .nr .fw .li1 .s3{
+        display: flex;
+    }
+    .nr .fw .li1 .s3 .s1{
+        width: 2%;
+        height: 0.001rem;
+        border:0.02rem solid #f1f1f1;
+        border-radius: 100%;
+        color:#b7b7b7;
+    }
+    .nr .fw .li1 .s2{
+        width: 60%;
+        height: 0.7rem;
+        border:0.00rem solid #f1f1f1;
+        font-size: 0.22rem;
+        color:#b7b7b7;
+        line-height:  1rem;
+        margin-left: 1.3rem;
+    }*/
+/*投诉    */
+    .nr .ts{
+        display: block;
+        width: 94%;
+        height: 3.7rem;
+        background: #ffffff;
+        margin-left: 3%;
+        overflow: hidden;
+        margin-top: 0.2rem;
+    }
+    .nr .ts ul li{
+        width: 100%;
+        height: 0.9rem;
+        border-bottom:0.01rem solid #f1f1f1;
+        font-size: 0.22rem;
+        color:#b7b7b7;
+        line-height:  0.9rem;
+        margin-left: 0.1rem;
+    }
+    .nr .ts ul li .x{   
+        margin-left: 0.9rem;
+    }
+    .nr .ts ul li .fuhao{
+        margin-left: 0.6rem;
+    }
+    .nr .ts ul li .button1{
+        margin-left:0.8rem;
+    }
+    .nr .ts ul li button{
+        border-radius: 50%;
+        width: 0.7rem;
+        height: 0.45rem;
+    }
+/*上传服务凭证    */
+    .fuwupingz{
+        width:0.9rem;
+        height: 0.8rem;
+        background: #34db83;
+        margin-left: 6%;
+        margin-top: 0.2rem;
+    }
+    .tjwz{
+        color:#f1f1f1;
+        background: #e5f4fd;
+        margin-left: 3%;
+        width: 94%;
+        height: 1.27rem;
+        margin-top: 0.2rem;
+    }
+/*下单    */
+    .nr .xd{
+        display: block;
+        width: 94%;
+        height: 3.3rem;
+        /*background: #ffffff;*/
+        margin-left: 3%;
+        overflow: hidden;
+        margin-top: 0.2rem;
+    }
+    .nr .xd ul .li1{
+        width: 100%;
+        height: 0.9rem;
+        border-bottom:0.01rem solid #f1f1f1;
+        font-size: 0.22rem;
+        color:#b7b7b7;
+        line-height:  1rem;
+    }
+    .nr .xd ul .li2{
+        width: 100%;
+        height: 1.6rem;
+        border-bottom:0.01rem solid #f1f1f1;
+        font-size: 0.22rem;
+        color:#b7b7b7;
+        line-height:  1.3rem;
+    }
+    .nr .xd ul .right a{
+        color: #b7b7b7;
+        margin-left:1.8rem;
+
+    }
+    .nr .xd ul .right1 a{
+        color: #646567;
+        margin-left:2.6rem;
+
+    }
+/*支付*/
+    .nr .zf{
+        width: 100%;
+        height: 1.1rem;
+        /*display: flex;*/
+        padding-top: 0.2rem;
+        background: #e5f4fd;
+        line-height: 0.9rem;
+    }
+    .nr .zf button{
+        height: 0.6rem;
+        width: 2rem;
+        height: 0.56rem;
+        border:0px ;
+        border-radius: 30% 30%;
+    }
+
+    .nr .zf .quzhifu{
+        width: 3.4rem;
+        margin-left: 0.3rem;
+        height: 0.56rem;
+        background: #35df74;
+        color: #e1ffeb;
+        margin-left: 1rem;
+    }
+
+    .nr .zf .fuwfangshi{
+
+    }
+    .nr .zf .fuh{
+        font-size: 0.4rem;
+        color: #5a9cce;
+    }
+    .nr .zf .jiage{
+        font-size: 0.4rem;
+        color: #5a9cce;
+    }

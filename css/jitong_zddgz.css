@@ -1,0 +1,196 @@
+@import url(base.css);
+    .bg{
+        width: 7.5rem;
+        height:13.34rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    header{
+        width: 100%;
+        height: 0.88rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+    header a{
+        width: 0.7rem;
+        height: 0.88rem;
+        float: left;
+    }
+
+    header .icon-taobaozhongchou4qizuoyoujiantou1{
+        margin-left: 0.15rem;
+        line-height: 0.88rem;
+        color: #36a8fe;
+        font-size: 0.36rem;
+        font-weight: bold;
+    }
+    header span{
+        float: right;
+        margin-right: 3.31rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+/*内容*/
+
+    .nr{
+        width: 100%;
+        height: 12.6rem;
+        background: #fbffff;
+        display: flex;
+        /*position: relative;*/
+    }
+    .nr .gz{
+        width: 94%;
+    }
+    /*点点    */
+    .nr .gz ul{
+            position: relative;
+                padding-top: 1rem;
+    }
+    .nr .gz ul .circle{
+        width: 14px;
+        height: 14px;
+        background: #ffffff;
+        border-radius: 50%;
+        border: 3px solid #e5e5e5;
+        /*float: left;*/
+        margin-right: 10px;
+        position: absolute;
+        left: -9px;
+        top:1.4rem;
+        z-index: 5;
+    }
+    .nr .gz ul .btn{
+        border: 3px solid #4aa5d4;
+        z-index: 10;
+    }
+    .nr .gz ul .btn .btn1{
+        border: 1px solid #f4b148;
+        background: #f4b148;
+        z-index: 10;
+    }
+    .nr .gz ul .circlem{
+        width: 8px;
+        height: 8px;
+        background: #92897c;
+        border-radius: 50%;
+        border: 1px solid #e5e5e5;
+        /*float: left;*/
+        margin-right: 10px;
+        position: absolute;
+        left: 2px;
+        top:2px;
+        z-index: 5;
+    }
+
+    .nr .gz ul .circle1{
+        width: 14px;
+        height: 14px;
+        background: #ffffff;
+        border-radius: 50%;
+        border: 3px solid #e5e5e5;
+        /*float: left;*/
+        margin-right: 10px;
+        position: absolute;
+        left: -9px;
+        top:4rem;
+        z-index: 5;
+    }
+    .nr .gz ul .circle2{
+        width: 14px;
+        height: 14px;
+        background: #ffffff;
+        border-radius: 50%;
+        border: 3px solid #e5e5e5;
+        /*float: left;*/
+        margin-right: 10px;
+        position: absolute;
+        left: -9px;
+        top:6.6rem;
+        z-index: 5;
+    }
+
+    .nr .gz .gz1{
+        position: absolute;
+        height: 6.55rem;
+        margin-left: 0%;
+        border-left: 2px solid #dfdfdf;
+        top:1.34rem;
+        left: 0;
+    }
+/*右边内容*/
+    .nr .gz ul{
+        width: 94%;
+        height: 5.25rem;
+        margin-left: 6%;
+        padding-left: 6%;
+        /*padding-top: 0.14rem;*/
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    .nr .gz ul .li1{
+        width: 94%;
+        height: 2.3rem;
+        border-bottom: 0.03rem solid #dfdfdf;
+        padding-top: 0.3rem;
+    }
+    .nr .gz ul .li2{
+        width: 94%;
+        height: 2.3rem;
+        padding-top: 0.3rem;
+    }
+    .nr .gz ul .li1 .ddsjjd{
+        width: 94%;
+        font-size: 0.44rem;
+        color: #36a8fe;
+    }
+    .nr .gz ul .li1 .ddzfcg{
+        width: 94%;
+        font-size: 0.44rem;
+        color: #8a8c8d;
+    }
+    .nr .gz ul .li2 .ddtjcg{
+        width: 94%;
+        font-size: 0.44rem;
+        color: #8a8c8d;
+    }
+    .nr .gz ul li .dd{
+        font-size: 0.275rem;
+        color: #b5b7b8;
+        padding-top: 0.15rem;
+    }
+    .nr .gz ul li .ddd{
+        font-size: 0.235rem;
+        color: #d5d8d9;
+        padding-top: 0.5rem;
+    }
+/*联系客服  */
+
+    .nr .lx{
+        /*display: flex;*/
+        padding-top: 11.3rem;
+        padding-right: 0.3rem;
+    }
+    .nr .lx button{
+        height: 0.6rem;
+        width: 2rem;
+        height: 0.56rem;
+        border:0px ;
+        border-radius: 30% 30%;
+    }
+    .nr main .quxiaodingdan{
+        margin-left: 2.8rem;
+        background: #e8f6ff;
+        width: 2rem;
+        height: 0.56rem;
+        font-size: 0.24rem;
+        color: #569fd2;
+    }

@@ -1,0 +1,390 @@
+@import url(base.css);
+.nav_head_box{
+    width: 100%;
+    height: 0.9rem;
+    /*background: #ffac32;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nav_head_return{
+    display: block;
+    width: 0.74rem;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    /*background: #ff4045;*/
+    color: #36a8fe;
+    font-size: 0.41rem;
+}
+.nav_head_wz_box{
+    width: 1.60rem;
+    height: 0.9rem;
+    /*background: #0ff31a;*/
+    margin-left: 2.40rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.refunds_in_big_box{
+    width: 100%;
+    height: 8.80rem;
+    background-image: -webkit-linear-gradient(top,#eef8ff,#ffffff);
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.refunds_in_head_box{
+    width: 100%;
+    height: 1.20rem;
+    /*background: #0070c9;*/
+    border-bottom: 0.01rem solid#f1f4f5;
+    padding-top: 0.44rem;
+    box-sizing: border-box;
+}
+.refunds_in_head_wz_box{
+    width: 100%;
+    height: 0.74rem;
+    /*background: #83c44e;*/
+    font-size: 0.28rem;
+    color: #4f5b64;
+    text-align: center;
+    line-height: 0.74rem;
+}
+.refunds_in_in_box{
+    width: 100%;
+    height: 6.96rem;
+    /*background: #ff4045;*/
+    border-bottom: 0.01rem solid#f1f4f5;
+    overflow: hidden;
+    position: relative;
+}
+.refunds_in_in_head_box{
+    width: 100%;
+    height: 0.74rem;
+    /*background: #ffc299;*/
+
+}
+.refunds_in_in_head_time_box{
+    width: 3.66rem;
+    height: 0.74rem;
+    /*background: #ffac32;*/
+    margin: 0 auto;
+    position: relative;
+}
+.dian{
+    width: 0.1rem;
+    height: 0.06rem;
+    background: #ff4045;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0;
+    top: 0.34rem;
+
+}
+.dian1{
+    width: 0.1rem;
+    height: 0.06rem;
+    background: #ff4045;
+    border-radius: 0.03rem;
+    position: absolute;
+    right: 0;
+    top: 0.34rem;
+}
+.refunds_in_in_in_time_box{
+    width: 3.24rem;
+    height: 0.74rem;
+    /*background: #9f9f9f;*/
+    position: absolute;
+    left: 0.2rem;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.refunds_in_in_in_time_box p{
+    font-size: 0.34rem;
+    color: #4f5b64;
+    line-height: 0.74rem;
+}
+.refunds_in_in_in_time_box span{
+    font-size: 0.40rem;
+    color: #ff6666;
+    line-height: 0.74rem;
+    font-weight: bold;
+}
+.refunds_in_in_wz_box{
+    width: 100%;
+    height: 2.40rem;
+    /*background: #b0b0b0;*/
+    margin-top: 0.54rem;
+}
+.refunds_in_in_wz_box li{
+    width: 100%;
+    height: 1.02rem;
+    /*background: #ffc299;*/
+    margin-bottom: 0.2rem;
+}
+.refunds_in_in_wz_box li p{
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    color: #7d7f7f;
+}
+.refunds_in_in_box .refunds_in_in_bottom_wz_box{
+    width: 100%;
+    height: 1.34rem;
+    /*background: #0070c9;*/
+}
+.refunds_in_in_bottom_wz_box p:first-child{
+    font-size:0.24rem;
+    line-height: 0.62rem;
+    color: #7d7f7f;
+}
+.refunds_in_in_bottom_wz_box p:nth-child(2){
+    font-size:0.24rem;
+    line-height: 0.62rem;
+    color: #7d7f7f;
+    margin-top: 0.08rem;
+}
+.refunds_in_in_button_box{
+    width: 5.64rem;
+    height: 1.36rem;
+    /*background: #ffac32;*/
+    margin-left: 1.62rem;
+    padding-top: 0.38rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.refunds_in_in_button_box li{
+    width: 1.60rem;
+    height: 0.6rem;
+    background: #3bacfe;
+    box-shadow: 0 0.02rem 0.02rem 0.02rem rgba(171,219,255,0.6);
+    border-radius: 0.3rem;
+    margin-right: 0.28rem;
+    z-index: 10;
+    /*font-size: 0.22rem;*/
+    /*color: #ffffff;*/
+    /*text-align: center;*/
+    /*line-height: 0.6rem;*/
+
+}
+.refunds_in_in_button_box li a{
+    display: block;
+    width: 1.60rem;
+    height: 0.6rem;
+    font-size: 0.22rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+
+}
+.refunds_in_in_button_box .wz{
+    color: #0070c9;
+}
+.refunds_in_in_button_box li:nth-child(1){
+    background: #e7f6ff;
+    box-shadow: 0 0.02rem 0.02rem 0.02rem rgba(231,246,255,0.6);
+
+}
+/*商品*/
+.refunds_bottom_box{
+    width: 100%;
+    height: 3.84rem;
+    /*background: #0070c9;*/
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.refunds_bottom_head_box{
+    width: 100%;
+    height: 0.9rem;
+    /*background: #3b7107;*/
+    position: relative;
+}
+.refunds_bottom_head_dian{
+    width: 0.1rem;
+    height: 0.06rem;
+    background: #36dd7c;
+    box-shadow: 0 0.02rem 0.01rem 0.01rem rgba(181,243,205,0.4);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0;
+    top:0.4rem;
+
+}
+.refunds_bottom_head_box span{
+    float: left;
+    line-height: 0.06rem;
+    color: #474747;
+    font-size: 0.24rem;
+    margin-top: 0.42rem;
+}
+.refunds_bottom_head_box span:nth-child(2){
+    margin-left: 0.2rem;
+    color: #474747;
+}
+.refunds_bottom_head_box span:nth-child(3){
+    color: #0070c9;
+}
+
+
+
+
+/*1*/
+.select{
+    height: 1.12rem;
+}
+.select_le{
+    font-size: 0.26rem;
+    color: #979899;
+    float: left;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    font-weight: bold;
+}
+.select img{
+    width: 0.38rem;
+    height: 0.3rem;
+    float: right;
+    margin-top: 0.42rem;
+
+}
+.select1{
+    height: 1.78rem;
+}
+.select1_le{
+    width: 1.76rem;
+    height: 1.74rem;
+    border-radius: 0.08rem;
+    box-shadow: 0 0 0.03rem 0.03rem rgba(0,0,0,0.3);
+    background: #f2f2f2;
+    float: left;
+}
+.select1_le img{
+    width: 1.76rem;
+    height: 1.74rem;
+}
+.select1_ri{
+    width: 5rem;
+    height: 1.74rem;
+    /*background: #ffc299;*/
+    float: right;
+}
+.select1_ri1{
+    font-size: 0.3rem;
+    color: #646666;
+    font-weight: bold;
+}
+.select1_ri2{
+    height: 0.51rem;
+    font-size: 0.26rem;
+    color: #36a8fe;
+    line-height: 0.51rem;
+    font-weight: bold;
+}
+.pot{
+    color: #36a8fe;
+    float: left;
+    margin-top: 0.04rem;
+    margin-right: 0.1rem;
+}
+.select1_ri3{
+    height: 0.26rem;
+    font-size: 0.22rem;
+    color: #afb1b2;
+    line-height: 0.26rem;
+    font-weight: bold;
+    position: relative;
+}
+.select1_ri3 .pot{
+    color: #36a8fe;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.select1_ri4{
+    height: 0.26rem;
+    font-size: 0.26rem;
+    color: #8a8c8d;
+    line-height: 0.26rem;
+    font-weight: bold;
+    margin-top: 0.32rem;
+}
+.select1_ri4_le{
+    width: 1.6rem;
+    height: 0.26rem;
+    float: left;
+}
+.select1_ri4_ri{
+    width: 0.9rem;
+    height: 0.3rem;
+    float: right;
+    line-height: 0.3rem;
+    color: #8a8c8d;
+}
+
+
+
+
+/*商品*/
+.refunds_bottom_wz_box_box{
+    width: 100%;
+    height: 1.14rem;
+    /*background: #3b7107;*/
+    position: relative;
+}
+.refunds_bottom_in_wz_box_box{
+    width: 2rem;
+    height: 0.26rem;
+    /*background: #ff4045;*/
+    position: absolute;
+    right: 0.24rem;
+    top: 0.44rem;
+
+}
+.refunds_bottom_in_wz_dian{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #36d681;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.refunds_bottom_in_wz_box_box span{
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+    font-size: 0.24rem;
+    color: #fbb548;
+}
+.refunds_bottom_button_box{
+    width: 100%;
+    height: 1.06rem;
+    background: #f1faff;
+    position: relative;
+}
+.password_bottom_button{
+    display: block;
+    width: 4.54rem;
+    height: 0.6rem;
+    background-image: -webkit-linear-gradient(left,#37e070,#32d69a);
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 0.24rem;
+    left: 1.46rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0 0.04rem 0.04rem 0.04rem rgba(181,243,205,0.8);
+}

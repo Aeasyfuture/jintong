@@ -1,0 +1,110 @@
+@import url(base.css);
+    .bg{
+        width: 7.5rem;
+        height:13.34rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    header{
+        width: 100%;
+        height: 0.88rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+    header a{
+        width: 0.7rem;
+        height: 0.88rem;
+        float: left;
+    }
+
+    header .icon-taobaozhongchou4qizuoyoujiantou1{
+        margin-left: 0.15rem;
+        line-height: 0.88rem;
+        color: #36a8fe;
+        font-size: 0.36rem;
+        font-weight: bold;
+    }
+    header span{
+        float: right;
+        margin-right: 3.31rem;
+        font-size: 0.36rem;
+        font-weight: bold;
+        color: #4ebbfe;
+        line-height: 0.88rem;
+    }
+    /*内容*/
+    .nr{
+        width: 100%;
+        height: 10.6rem;
+        background: #fbffff;
+        padding-top: 10px;
+    }
+    .nr ul{
+        width:100%;
+        height: 3.3rem;
+        background: #f1fcfc;
+        display: flex;
+    }
+    .nr ul .tupian{
+        width: 2rem;
+        height: 3.3rem;
+        background: url("../img/waterhead.png")no-repeat center;
+        background-size: 1.28rem;
+    }
+    .nr ul .qianshui{
+        margin-top: 0.5rem;
+        /*margin-left: */
+        font-size: 0.32rem;
+        color:#555555;
+    }
+    .nr ul .guige span{
+        font-size: 0.18rem;
+        color:#5a9cce;
+    }
+    .nr ul .guige1 span{
+        font-size: 0.2rem;
+        color: #d1d1d1;
+    }
+    .nr ul .jiage{
+        margin-top: 0.42rem;
+    }
+    .nr ul .jiage span{
+        font-size: 0.30rem;
+        color: #7e7e7e;
+    }
+    .nr ul .shifukuang{
+        margin-top:2.2rem;
+        margin-left: 1.9rem;
+        font-size: 0.1rem;
+        color: #7e7e7e;
+    }
+    .nr ul .shifukuang1 span{
+        margin-top:0.1rem;
+        font-size: 0.3rem;
+        color: #eeb659;
+    }
+/*退款*/
+    .nr .tknr{
+        width: 100%;
+        height: 115px;
+        /*background: #eef9f9;*/
+        /*margin-left: 2%;*/
+        margin-top: 10px;
+    }   
+    .nr .tknr .jtk{
+        padding-left: 4%;
+        font-size: 17px;
+        color:#b3b7b8;
+        margin-top:12px;
+    }   
+    .nr .tknr .nrtk{
+        padding-left: 5%;
+        font-size:13px;
+        color:#b3b7b8;
+        padding-top:4px;
+    }   
