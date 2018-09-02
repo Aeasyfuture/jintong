@@ -1,0 +1,208 @@
+@import url(base.css);
+.nav_head_box{
+    width: 100%;
+    height: 0.9rem;
+    /*background: #ffac32;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nav_head_return{
+    display: block;
+    width: 0.74rem;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    /*background: #ff4045;*/
+    color: #36a8fe;
+    font-size: 0.41rem;
+}
+.nav_head_wz_box{
+    width: 1.14rem;
+    height: 0.9rem;
+    /*background: #0ff31a;*/
+    margin-left: 2.40rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.option_box{
+    width: 100%;
+    height: 0.98rem;
+    background-image: -webkit-linear-gradient(top,#eef8ff,#ffffff);
+    padding-top: 0.42rem;
+    padding-left: 1.45rem;
+    box-sizing: border-box;
+}
+.option_in_box{
+    width: 4.52rem;
+    height: 0.56rem;
+    /*background: #ffac32;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.option_in_box li{
+    width: 1.34rem;
+    height: 0.56rem;
+    background: #e7f6ff;
+    border-radius: 0.28rem;
+    font-size: 0.18rem;
+    color:#3bacfe;
+    text-align: center;
+    line-height: 0.56rem;
+}
+.option_in_box .hot{
+    background: #3bacfe;
+    color: #f2f2f2;
+}
+.coupons_box{
+    width: 100%;
+    height: 6.80rem;
+    /*background: #ffac32;*/
+    padding-top: 0.32rem;
+    padding-bottom: 0.32rem;
+    padding-left: 0.32rem;
+    box-sizing: border-box;
+}
+.bg .coupons_hide{
+    width: 100%;
+    height: 6.80rem;
+    background: #ffffff;
+    z-index: 5;
+    position: absolute;
+    top: 1.88rem;
+    left: 0rem;
+}
+.coupons_box li{
+    width: 6.86rem;
+    height: 1.82rem;
+    background: #ff4045;
+    border-radius: 0.08rem;
+    padding-top: 0.27rem;
+    padding-left: 0.18rem;
+    box-sizing: border-box;
+}
+.coupons_box li:nth-child(2){
+    background-image: -webkit-linear-gradient(left,#34a3f8,#3fddf1);
+    margin-top: 0.32rem;
+    margin-bottom: 0.32rem;
+}
+.coupons_box li:first-child{
+    background-image: -webkit-linear-gradient(right,#33e171,#27d29b);
+}
+.coupons_box li:nth-child(3){
+    background-image: -webkit-linear-gradient(left,#ffb637,#ffdb46);
+
+}
+.coupons_in_wz_box1{
+    width: 6.48rem;
+    height: 0.98rem;
+    /*background: #3b7107;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.coupons_in_in_wz_box1{
+    width: 4.97rem;
+    height: 0.98rem;
+    /*background: #0070c9;*/
+    border-bottom: 0.02rem dashed#f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.coupons_in_left_wz_box1{
+    width: 1.50rem;
+    height: 0.98rem;
+    /*background: #0ff31a;*/
+    position: relative;
+}
+.coupons_in_left_wz{
+    width: 1.42rem;
+    height: 0.59rem;
+    margin-top: 0.26rem;
+    margin-left: 0.18rem;
+    background: url('../img/ysh1.png') no-repeat center;
+    background-size: 100% 100%;
+}
+.coupons_in_right_wz{
+    width: 3.37rem;
+    height: 0.70rem;
+    margin-top: 0.21rem;
+    /*background: #ffac32;*/
+
+}
+.coupons_in_right_wz span:first-child{
+    display: block;
+    line-height: 0.34rem;
+    font-size: 0.26rem;
+    color: #ffffff;
+}
+.coupons_in_right_wz span:nth-child(2){
+    display: block;
+    line-height: 0.34rem;
+    font-size: 0.18rem;
+    color: #f2f2f2;
+}
+.coupons_in_left_wz_box1 span:nth-child(1){
+    font-size: 0.68rem;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 0.10rem;
+    left: 0.22rem;
+}
+.coupons_in_left_wz_box1 span:nth-child(2){
+    font-size: 0.2rem;
+    color: #ffffff;
+    position: absolute;
+    left: 1.18rem;
+    top: 0.64rem;
+}
+.coupons_in_wz_box2{
+    width: 6.48rem;
+    height: 0.56rem;
+    /*background: #83c44e;*/
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.coupons_in_wz_box2 .coupons_in_wz_yuan{
+    width: 0.06rem;
+    height: 0.06rem;
+    margin: auto 0;
+    background: #ffffff;
+    border-radius: 50%;
+}
+.coupons_in_wz_box2 span{
+    font-size: 0.2rem;
+    color: #f2f2f2;
+    margin-top: 0.12rem;
+}
+.coupons_in_wz_button{
+    display: block;
+    width: 1.38rem;
+    height: 0.36rem;
+    background: #fefffe;
+    position: absolute;
+    top: 0.08rem;
+    right:0;
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.38rem;
+    color: #32e074;
+}
+.coupons_in_wz_box2 .coupons_in_wz_button2{
+    color: #38b9f5;
+}
+.coupons_in_wz_box2 .coupons_in_wz_button3{
+    color: #ffc33c;
+}
+.coupons_hide .coupons_box .coupons_box_color{
+    background: #d7e0e3;
+}
+.coupons_hide .coupons_box .coupons_in_wz_button22{
+    color: #c7d7de;
+}
