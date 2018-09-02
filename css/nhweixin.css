@@ -38,6 +38,11 @@ header span{
     line-height: 0.88rem;
 }
 .jianbian{
+    width: 7.5rem;
+    height: 0.39rem;
+}
+.jianbian img{
+    width: 7.5rem;
     height: 0.39rem;
 }
 .big{

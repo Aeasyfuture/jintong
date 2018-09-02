@@ -40,6 +40,10 @@ header span{
 .jianbian{
     height: 0.39rem;
 }
+.jianbian img{
+    width: 7.5rem;
+    height: 0.39rem;
+}
 .big{
     width: 100%;
     margin-top: 1.64rem;
