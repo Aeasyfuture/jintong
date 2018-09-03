@@ -1,0 +1,139 @@
+@import url(base.css);
+header{
+	width: 3.75rem;
+	height: 0.5rem;
+	background-color: #FBFFFF;
+	box-shadow: 0px 10px 10px 10px #F0F8FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+header h2{
+	font-size: 0.2rem;
+	color: #66C0EC;
+	
+}
+header .box1{
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	
+	z-index: 50;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+
+}
+header .box1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+header .box1 a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #66C0EC;
+}
+.section1{
+	width: 0.6rem;
+	height: 0.8rem;
+	margin: 0.4rem auto 0.2rem;
+	background: url("../img/tu9.png") no-repeat center;
+	background-size: 0.6rem 0.8rem;
+}
+h3{
+	display: block;
+	width: 1.3rem;
+	height: 0.2rem;
+	margin: 0 auto;
+	font-size: 0.14rem;
+	color: #000;
+	line-height: 0.2rem;
+	text-align: center;
+}
+h3 span{
+	font-size: 0.14rem;
+	color: #6AB4E5;
+	line-height: 0.2rem;
+}
+.section2{
+	width: 3.25rem;
+	height: 2.7rem;
+	margin: 0.3rem auto 0rem;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F3F8F9;
+	border-top: 0.02rem solid #F3F8F9;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+.section2 h2{
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: 0.14rem;
+	color: #7B7F80;
+}
+.section2 h4{
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: 0.14rem;
+	color: #7B7F80;
+	margin-top: 0.25rem;
+}
+.section3{
+	width: 3.25rem;
+	height: 0.53rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F3F8F9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section3 h5{
+	font-size: 0.15rem;
+	color: #7B7F80;
+
+}
+.section3 h5 span{
+	font-size: 0.15rem;
+	color: #39AEFB;
+}
+.section3 h6{
+	font-size: 0.15rem;
+	color: #39AEFB;
+}
+
+
+
+.section4{
+	width: 3.25rem;
+	height: 0.42rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F3F8F9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section4 h5{
+	font-size: 0.15rem;
+	color: #7B7F80;
+
+}
+.section4 h5 span{
+	font-size: 0.15rem;
+	color: #39AEFB;
+}
+.section4 h6{
+	font-size: 0.15rem;
+	color: #32D993;
+}

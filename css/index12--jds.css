@@ -1,0 +1,153 @@
+@import url(base.css);
+header{
+	width: 3.75rem;
+	height: 0.5rem;
+	background-color: #FBFFFF;
+	box-shadow: 0px 10px 10px 10px #F0F8FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+header h2{
+	font-size: 0.2rem;
+	color: #66C0EC;
+	
+}
+header .box1{
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	
+	z-index: 50;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+
+}
+header .box1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+header .box1 a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #66C0EC;
+}
+.section1{
+	width: 3.51rem;
+	height: 0.6rem;
+	
+	
+	margin: 0.3rem auto 0rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.section1 .box1{
+	width: 0.45rem;
+	height: 100%;
+	background: url("../img/tu10.png") no-repeat center;
+	background-size: 100% 100%;
+
+}
+.section1 .box2{
+	width: 2.4rem;
+	height: 0.4rem;
+	margin-left: 0.15rem;
+	background: url("../img/tu11.png") no-repeat center;
+	background-size: 100% 100%;
+
+}
+.section1 .box5{
+	width: 2.25rem;
+	height: 0.4rem;
+	margin-left: 0.15rem;
+	background: url("../img/tu14.png") no-repeat center;
+	background-size: 100% 100%;
+
+}
+.section2{
+	width: 3.51rem;
+	height: 0.6rem;
+	
+	
+	margin: 0.1rem auto 0rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.section2 .box3{
+	width: 0.45rem;
+	height: 100%;
+	margin-left: 0.15rem;
+	background: url("../img/tu12.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.section2 .box4{
+	width: 1.5rem;
+	height: 0.4rem;
+	
+	background: url("../img/tu13.png") no-repeat center;
+	background-size: 100% 100%;
+
+}
+.section3{
+	width: 3.75rem;
+	height: 0.5rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 50;
+	background-color: #3AA9FB;
+	display: flex;
+	justify-content: center;
+}
+.section3 .box6{
+	width: 3.51rem;
+	height: 100%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section3 .box6 .b61{
+	width: 0.36rem;
+	height: 0.25rem;
+	
+}
+.section3 .box6 .b61 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url("../img/tu15.png") no-repeat center;
+	background-size: 100% 100%;
+
+}
+.section3 .box6 .b62{
+	width: 0.31rem;
+	height: 0.31rem;
+	
+}
+.section3 .box6 .b62 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url("../img/tu16.png") no-repeat center;
+	background-size: 100% 100%;
+
+}
+.section3 .box6 input{
+	display: block;
+	width: 2.95rem;
+	height: 0.3rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+}

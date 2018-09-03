@@ -1,0 +1,162 @@
+@import url(base.css);
+header{
+	width: 3.75rem;
+	height: 0.5rem;
+	background-color: #FBFFFF;
+	box-shadow: 0px 10px 10px 10px #F0F8FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+header h2{
+	font-size: 0.2rem;
+	color: #66C0EC;
+	
+}
+header .box1{
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	
+	z-index: 50;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+
+}
+header .box1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+header .box1 a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #66C0EC;
+}
+.section1{
+	width: 3.51rem;
+	height: 1.7rem;
+
+	background-color: #FBFFFF;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F1F5F6; 
+	margin: 0.15rem auto;
+}
+.section1 .box21{
+	width: 100%;
+	height: 1.34rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+.section1 .box21 .b211{
+	width: 1.09rem;
+	height: 0.55rem;
+	background-color: #F1FAFF;
+	border-radius: 0.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.section1 .box21 .b211 .xy{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0.17rem;
+	height: 0.17rem;
+	border-radius: 50%;
+	background: url("../img/tu3.png") no-repeat center;
+	background-size: 100% 100%;
+	z-index: 10;
+}
+.section1 .box21 .b211.active{
+	background-color: #55A4DD;
+}
+.section1 .box21 .b211 .h21{
+	font-size: 0.16rem;
+	color: #55A4DD;
+}
+.section1 .box21 .b211 .h31{
+	font-size: 0.12rem;
+	color: #55A4DD;
+}
+.section1 .box21 .b211 .h21.active1{
+	font-size: 0.16rem;
+	color: #fff;
+}
+.section1 .box21 .b211 .h31.active2{
+	font-size: 0.12rem;
+	color: #fff;
+}
+
+.section1 .box22{
+	width: 100%;
+	height: 0.2rem;
+	
+	display: flex;
+	justify-content: space-between;
+}
+.section1 .box22 .b221{
+	width: 33.33%;
+	height: 100%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section1 .box22 .b221 h2{
+	font-size: 0.1rem;
+	color: #55A4DD;
+}
+.section2{
+	width: 3.51rem;
+	height: 0.4rem;
+	margin: 0.25rem auto;
+	color: #55A4DD;
+	display: flex;
+	justify-content: space-between;
+}
+.section2 input{
+	width: 2.38rem;
+	height: 100%;
+	box-sizing: border-box;
+	border: 0.02rem solid #EDF6FB;
+	background-color: #F1FAFF;
+	outline: none;
+	font-size: 0.12rem;
+	
+	border-radius: 0.1rem;
+	 
+}
+.section2 .box3{
+	width: 1rem;
+	height: 0.3rem;
+	margin-top: 0.05rem;
+	overflow: hidden;
+	border-radius: 0.15rem;
+}
+.section2 .box3 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #37DF70;
+
+}
+.section2 .box3 a h4{
+	font-size: 0.1rem;
+	color: #fff;
+}

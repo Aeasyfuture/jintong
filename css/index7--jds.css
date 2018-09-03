@@ -1,0 +1,364 @@
+@import url(base.css);
+header{
+	width: 3.75rem;
+	height: 0.5rem;
+	background-color: #FBFFFF;
+	box-shadow: 0px 10px 10px 10px #F0F8FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+header h2{
+	font-size: 0.2rem;
+	color: #66C0EC;
+	
+}
+header .box1{
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	
+	z-index: 50;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+
+}
+header .box1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+header .box1 a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #66C0EC;
+}
+.section1{
+	width: 3.75rem;
+	height: 0.2rem;
+
+}
+.section2{
+	width: 3.51rem;
+	height: 1.73rem;
+	
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F3F7F8;
+	padding-top: 0.12rem;
+	padding-bottom: 0.12rem;
+
+}
+.section2 .box1{
+	width: 100%;
+	height: 0.25rem;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section2 .box1 .b11{
+	width: 0.9rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section2 .box1 .b11 .b111{
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	
+	position: relative;
+	
+}
+.section2 .box1 .b11 .b111 .y1{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: url("../img/tu17.png") no-repeat center;
+	background-size: 100% 100%;
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.section2 .box1 .b11 .b111 .x1{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #E8F6FF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+/* .section2 .box1 .b11 .b113{
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	background-color: #E8F6FF;
+	
+} */
+.section2 .box1 .b11 .b112{
+	width: 0.6rem;
+	height: 100%;
+}
+.section2 .box1 .b11 .b112 a{
+	display: block;
+	width: 0.6rem;
+	height: 100%;
+}
+.section2 .box1 .b11 .b112 a h2{
+	font-size: 0.12rem;
+	line-height: 0.25rem;
+	text-align: center;
+	color: #3EACFB;
+}
+.section2 .box1 .b12{
+	width: 0.23rem;
+	height: 0.23rem;
+	
+}
+.section2 .box1 .b12 a{
+	display: block;
+	width: 0.23rem;
+	height: 0.23rem;
+	background: url("../img/tu18.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.section2 .box2{
+	width: 100%;
+	height: 0.95rem;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section2 .box2 .b21{
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	background-color: #E8F6FF;
+}
+.section2 .box2 .b22{
+	width: 0.7rem;
+	height: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.section2 .box2 .b22 .b221{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url("../img/tu19.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.section2 .box2 .b22 .b222{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url("../img/tu20.png") no-repeat center;
+	background-size: 100% 100%;
+}
+
+.section2 .box2 .b22 h3{
+	display: block;
+	width: auto;
+	height: auto;
+	font-size: 0.12rem;
+	color: : #40ABF9;
+
+}
+.section2 .box2 .b23{
+	width: 2.3rem;
+	height: 100%;
+	
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.section2 .box2 .b23 .b231{
+	width: 0.95rem;
+	height: 0.95rem;
+	background: url("../img/tu21.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.section2 .box2 .b23 .b232{
+	width: 1.2rem;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.section2 .box2 .b23 .b232 h2{
+	font-size: 0.16rem;
+	color: #000;
+}
+.section2 .box2 .b23 .b232 h3{
+	display: block;
+	width: auto;
+	height: auto;
+	margin-top: 0.15rem;
+	font-size: 0.12rem;
+	color: #A4A8AB;
+}
+.section2 .box3{
+	width: 3.51rem;
+	height: 0.22rem;
+	
+	margin-top: 0.08rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section2 .box3 h4{
+	display: block;
+	width: 0.9rem;
+	height: 100%;
+	margin-left: 0.3rem;
+	font-size: 0.12rem;
+	line-height: 0.22rem;
+	text-align: center;
+	color: #ACD3F0;
+}
+.section2 .box3 h4 span{
+	font-size: 0.12rem;
+	line-height: 0.22rem;
+	color: #40ABF9;
+
+}
+.section2 .box3 .b31{
+	width: 0.7rem;
+	height: 100%;
+	background-color: #3AAAFC;
+	border-radius: 0.2rem;
+}
+.section2 .box3 .b31 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section2 .box3 .b31 a h5{
+	font-size: 0.1rem;
+	color: #fff;
+}
+.section3{
+	width: 3.75rem;
+	height: 0.55rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #F1FAFF;
+	display: flex;
+	justify-content: center;
+}
+.section3 .box4{
+	width: 3.51rem;
+	height: 100%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section3 .box4 .b41{
+	width: 1.2rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.section3 .box4 .b41 h2{
+	font-size: 0.12rem;
+	color: #ACD3F0;
+}
+.section3 .box4 .b41 h2 span{
+	font-size: 0.15rem;
+	color: #40ABF9;
+}
+.section3 .box4 .b41 h3{
+	display: block;
+	width: auto;
+	height: auto;
+	margin-top: 0.07rem;
+	font-size: 0.1rem;
+	color: #ACD3F0;
+}
+.section3 .box4 .b42{
+	width: 1.9rem;
+	height: 0.3rem;
+	background-color: #37DF72;
+	border-radius: 0.2rem;
+
+}
+.section3 .box4 .b42 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section3 .box4 .b42 a h4{
+	font-size: 0.14rem;
+	color: #fff;
+}
+.section4{
+	width: 0.6rem;
+	height: 0.2rem;
+	margin-top: 1.5rem;
+	margin-left: 0.3rem;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section4 .b411{
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	
+	position: relative;
+	
+}
+.section4 .b411 .y11{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: url("../img/tu17.png") no-repeat center;
+	background-size: 100% 100%;
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.section4 .b411 .x11{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #E8F6FF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.section4 h3{
+	width: auto;
+	height: auto;
+	font-size: 0.12rem;
+	color: #3BADFE;
+}

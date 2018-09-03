@@ -1,0 +1,151 @@
+@import url(base.css);
+header{
+	width: 3.75rem;
+	height: 0.5rem;
+	background-color: #FBFFFF;
+	box-shadow: 0px 10px 10px 10px #F0F8FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+header h2{
+	font-size: 0.2rem;
+	color: #66C0EC;
+	
+}
+header .box1{
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	
+	z-index: 50;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+
+}
+header .box1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+header .box1 a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #66C0EC;
+}
+.section1{
+	width: 3.51rem;
+	height: 0.82rem;
+	
+	background-color: #FBFFFF;
+	box-sizing: border-box;
+	border-bottom: 0.02rem solid #F1F5F6;
+	margin: 0.1rem auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section1 h3{
+	color: #5EC29C;
+	font-size: 0.1rem;
+	font-weight: 700;
+}
+.section1 h4{
+	font-size: 0.14rem;
+	color: #000;
+	margin: auto 0.1rem;
+
+}
+.section1 h4 span{
+	font-size: 0.16rem;
+	color: #5EC29C;
+
+}
+.section2{
+	width: 3.51rem;
+	height: 0.55rem;
+	margin: 0.3rem auto;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section2 .box2{
+	width: 1.2rem;
+	height: 100%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section2 .box2 .b21{
+	width: 0.55rem;
+	height: 0.55rem;
+	background-color: #38DD74;
+	border-radius: 50%;
+	overflow: hidden;
+	background: url("../img/tu1.png") no-repeat center;
+	background-size: 100% 100%;
+}
+
+.section2 .box2 h5{
+	font-size: 0.14rem;
+	color: #000;
+}
+.section2 .box3{
+	width: 0.12rem;
+	height: 0.12rem;
+	position: relative;
+}
+.section2 .box3 .b31{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0.12rem;
+	height: 0.12rem;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 0.04rem solid #3CAEFF;
+	border-radius: 50%;
+}
+.section2 .box3 .b32{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background-color: #EAF5FB;
+	z-index: 10;
+}
+.section3{
+	width: 2.30rem;
+	height: 0.3rem;
+	margin: 2rem auto 0rem;
+	background-color: #38DD74;
+	border-radius: 0.3rem;
+
+}
+.section3 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section3 a h6{
+	font-size: 0.12rem;
+	color: #fff;
+}
